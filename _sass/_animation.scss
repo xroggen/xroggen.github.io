@@ -1,0 +1,43 @@
+.bezier {
+-webkit-transition: all 0.2s cubic-bezier(0,.99,.79,.96); 
+   -moz-transition: all 0.2s cubic-bezier(0,.99,.79,.96); 
+     -o-transition: all 0.2s cubic-bezier(0,.99,.79,.96); 
+        transition: all 0.2s cubic-bezier(0,.99,.79,.96); }
+
+.appear{
+		  animation: appearing ease 1.5s;
+		  animation-iteration-count: 1;
+		  animation-fill-mode:forwards;
+  -webkit-animation: appearing ease 1.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+	 -moz-animation: appearing ease 1.5s;
+	 -moz-animation-iteration-count: 1;
+	 -moz-animation-fill-mode:forwards;
+  	   -o-animation: appearing ease 1.5s;
+  	   -o-animation-iteration-count: 1;
+  	   -o-animation-fill-mode:forwards;
+  	  -ms-animation: appearing ease 1.5s;
+  	  -ms-animation-iteration-count: 1;
+  	  -ms-animation-fill-mode:forwards;
+}
+@keyframes appearing {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes appearing {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes appearing {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes appearing {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes appearing {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
